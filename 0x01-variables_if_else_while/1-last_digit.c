@@ -17,7 +17,7 @@ int main(void)
 	print("%s %d is %d and is", last, n, n % 10);
 	if (n % 10 > 5)
 	{
-		printf("greater than 5\n")
+		printf("greater than 5\n");
 	}
 	else if (n % 10 == 0)
 	{
@@ -26,3 +26,5 @@ int main(void)
 	else
 	{
 		printf("less than 6 and not 0\n");
+	return (0);
+}
