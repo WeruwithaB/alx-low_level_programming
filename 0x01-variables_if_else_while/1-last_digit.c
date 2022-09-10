@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
 /**
- *main - Prints the last digit of random number 
- *
+ *main - main block
+ *Description: Get a random number and check its last digit, compare it with 5
  *Return: Return 0
  */
 int main(void)
