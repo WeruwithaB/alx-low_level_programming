@@ -19,7 +19,7 @@ int main(void)
 {
 	int hex = '0';
 
-	for (hex = '0'; hex <= '9'; hexx++)
+	for (hex = '0'; hex <= '9'; hex++)
 		putchar(hex);
 	{
 	int hex = 'a';
