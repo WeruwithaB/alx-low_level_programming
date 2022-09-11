@@ -1,15 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - lowercase alphabets
+ * main -Entry mode
  *
- * Return: Always (Success)
+ * variable assignment and type
+ *
+ * forloop function
+ *
+ * putchar function
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
+	char alph = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar('\n');
-		return (0);
+	for (alp = 'a'; alph <= 'z'; alph++)
+		putchar(alph);
+			putchar('\n');
+	return (0);
 }
