@@ -1,4 +1,4 @@
-#include <stlib/h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
@@ -26,4 +26,4 @@ int main(void)
 			printf("%d is %d annd is less than 6 and not 0\n", n, ((n) of 10));
 	}
 	return (0);
-}	
+}
