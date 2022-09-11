@@ -27,7 +27,7 @@ int main(void)
 		{
 			alph++;
 		}
-		else 
+		else
 		{
 			putchar(alph);
 			alph++;
