@@ -16,9 +16,9 @@ int main(void)
 {
 	int a, z;
 
-	for (a = '0'; a<= '9'; z++)
+	for (a = '0'; a <= '9'; z++)
 	{
-		for (z = '0'; z<= '9'; z++)
+		for (z = '0'; z <= '9'; z++)
 		{
 			if ((a < z) & (z <= '9'))
 			{
