@@ -14,21 +14,22 @@
  */
 int main(void)
 {
-	int b, w;
+	int a, z;
 
-	for (b = '48'; b <= '57'; b++)
+	for (a = '0'; a <= '9'; z++)
 	{
-		for (w = b + 1; w <= '57'; w++)
+		for (z = '0'; z <= '9'; z++)
 		{
-		
-			putchar(b);
-			putchar(w);
-
-			if (b == 56 && w ==57)
-				continue;
-
-			putchar(44);
-			putchar(32);
+			if ((a < z) & (z <= '9'))
+			{
+				putchar(a);
+				putchar(z);
+					if ((z < '9') | (a < '8'))
+					{
+						putchar(',');
+						putchar(' ');
+					}
+			}
 		}
 	}
 	putchar('\n');
