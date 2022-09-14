@@ -2,7 +2,7 @@
 
 /**
  * main - program starts here
- * Description - prints the alphabet in lowercase
+ * print_alphabet - prints the alphabet in lowercase
  * Alphabet: The characters being printed
  *
  * Return: 1 on success, -1 on error
