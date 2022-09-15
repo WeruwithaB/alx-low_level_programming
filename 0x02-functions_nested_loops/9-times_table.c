@@ -27,7 +27,7 @@ void times_table(void)
 			times = (m * n);
 			if ((times / 10) > 0)
 			{
-				_putchar((times / 10) + '0')
+				_putchar((times / 10) + '0');
 			}
 			else
 			{
