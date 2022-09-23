@@ -23,7 +23,7 @@ char *_strncat(char *dest, char *src, int n)
 	if (len_src > n)                            /* copies src until nth byte */
 	{
 		for (i = 0; i < n;)
-			dest[lesn_dest++] = src[i++];
+			dest[len_dest++] = src[i++];
 	}
 
 	else                                      /* copies the whole of src */
